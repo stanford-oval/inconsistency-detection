@@ -299,7 +299,7 @@ These traces are ideal for training or benchmarking planning-aware agents.
 If you use the WikiCollide dataset or the agent code, please cite:
 
 ```bibtex
-@inproceedings{semnani2025churro,
+@inproceedings{semnani2025inconsistency,
 	title        = {Detecting Corpus-Level Knowledge Inconsistencies in Wikipedia with Large Language Models},
 	author       = {Sina J. Semnani, Jirayu Burapacheep, Arpandeep Khatua, Thanawan Atchariyachanvanit, Zheng Wang, Monica S. Lam},
 	booktitle    = {Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP 2025)},
