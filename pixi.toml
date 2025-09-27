@@ -1,0 +1,27 @@
+[project]
+authors = ["Sina <s.j.semnani@gmail.com>"]
+channels = ["pytorch", "conda-forge", "main", "r", "msys2"]
+name = "inconsistency-detection"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.12.*"
+
+[pypi-dependencies]
+pytest = "*"
+pytest-asyncio = "*"
+ruff = ">=0.13.0, <0.14"
+rich = ">=14.1.0, <15"
+loguru = ">=0.7.3, <0.8"
+diskcache = ">=5.6.3, <6"
+json-repair = ">=0.51.0, <0.52"
+litellm = "==1.77.4"
+langchain = "==1.0.0a4"
+langchain-openai = "*"
+langchain-azure-ai = "*"
+httpx = ">=0.28.1, <0.29"
+markdown = ">=3.6, <4"
+markdownify = ">=1.2.0, <1.3"
