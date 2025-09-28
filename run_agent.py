@@ -6,6 +6,7 @@ from claire_agent import InconsistencyAgent
 from claire_agent.claim import Claim
 from retrieval.document_block import Block
 from utils.async_parallel import run_async_in_parallel
+from utils.llm_usage_tracking import log_global_token_usage
 from utils.logger import logger
 from utils.report_rendering import render_inconsistency_report
 
@@ -122,3 +123,4 @@ async def main(args):
 if __name__ == "__main__":
     args = parse_args()
     asyncio.run(main(args))
+    log_global_token_usage()
