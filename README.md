@@ -1,5 +1,5 @@
 <p align="center">
-	Detecting Corpus-Level Knowledge Inconsistencies in Wikipedia with Large Language Models
+	This repository contains the dataset and the implementation of the core ideas from our EMNLP 2025 paper *Detecting Corpus-Level Knowledge Inconsistencies in Wikipedia with Large Language Models*.
 </p>
 
 <p align="center">
@@ -21,7 +21,7 @@
 ---
 
 ## Overview
-This repository contains the dataset and the implementation of the core ideas from the EMNLP 2025 paper *Detecting Corpus-Level Knowledge Inconsistencies in Wikipedia with Large Language Models*. The CLAIRE agent uses tool-enabled reasoning to:
+The CLAIRE agent uses tool-enabled reasoning to:
 
 - extract atomic claims from a given passage,
 - understand difficult terms and similar-sounding entities, and
