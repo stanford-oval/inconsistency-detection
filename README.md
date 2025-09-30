@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-		<a href="https://arxiv.org/abs/0000.00000" target="_blank"><img src="https://img.shields.io/badge/Paper-arXiv%20(preprint%20pending)-B31B1B" alt="Paper" /></a>
+		<a href="https://arxiv.org/abs/2509.23233" target="_blank"><img src="https://img.shields.io/badge/Paper-arXiv%20-B31B1B" alt="Paper" /></a>
 		<a href="https://github.com/stanford-oval/inconsistency-detection/stargazers" target="_blank"><img src="https://img.shields.io/github/stars/stanford-oval/inconsistency-detection?style=social" alt="GitHub Stars" /></a>
 </p>
 
